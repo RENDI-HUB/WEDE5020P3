@@ -44,7 +44,7 @@ const FAQS = [
 ];
 
 const GALLERY_IMAGES = [
-  { src: '../GTTNHero.jpeg', alt: 'Gift to the Nation home banner' },
+  { src: 'GTTNHero.jpeg', alt: 'Gift to the Nation home banner' },
   { src: '../AUHero.jpeg', alt: 'Gift to the Nation about us banner' },
   { src: '../SHero.jpeg', alt: 'Gift to the Nation services banner' },
   { src: '../CUhero.jpeg', alt: 'Gift to the Nation contact banner' },
