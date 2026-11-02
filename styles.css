@@ -1,0 +1,301 @@
+ 
+      
+  header{
+  /*general background color for header*/
+background-color: rgb(104, 104, 128);
+
+}p/*genral styling for paragraph 1 on all pages*/
+{font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%
+  font-size=100px;;
+  color: rgb(7, 7, 7);
+  padding:20px;
+}p2{
+  font-family:fantasy;
+  font-size: 100%;
+  float:inline-end;
+  color:white
+}
+
+h2{/*general styling for heading2 on all pages*/
+color: rgb(10, 11, 11);
+font-family: 'Courier New', Courier, monospace;
+font-size: 40px;
+padding:20px;
+font-size: 380%;
+ font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif ;
+ 
+}
+h3{/*general styling for heading 3 on all pages*/
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 300%}
+nav{
+    background-color: rgb(81, 98, 98);
+}
+nav ul li a{
+color:black;
+text-decoration: none;
+padding:10px;
+display:block;
+ float:inline-end;
+   font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 25px;        
+
+}
+nav ul{
+display:flex;
+list-style-type:none;
+
+ list-style-type:none;
+margin:0;
+            padding:0%;
+}
+nav ul li a:hover{
+background-color:rgb(134, 126, 126) ;
+border-radius: 20%;
+border: 1px solid black;
+border-style: dotted;
+}
+h2{
+    padding: 20px;
+
+}
+.responsive-image{
+    height:auto;
+max-width: 100%;}
+
+        .index-page {/*general styling for index page*/
+            
+            background-image:url('../images/GTTNHero.jpeg');
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+            background-size: cover;
+          background-repeat: no-repeat;
+            background-attachment:fixed;
+            
+         display: grid;
+  gap: var(--space);
+
+@media (min-width: 768px) {
+  .page {
+    grid-template-columns: 240px 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .page {
+    grid-template-columns: 280px 2fr 1fr;
+  }
+        }}
+
+        .contact-page {/*general styling for contact page*/
+            background-image:url('../images/CUhero.jpeg');
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+   
+            background-size: cover;
+          background-repeat: no-repeat;
+            background-attachment:fixed;
+            
+ display: grid;
+  gap: var(--space);
+
+@media (min-width: 768px) {
+  .page {
+    grid-template-columns: 240px 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .page {
+    grid-template-columns: 280px 2fr 1fr;
+  }
+}
+}    
+        .services-page {/*general styling for services page*/
+            background-image:url('../images/SHero.jpeg');
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+   
+            background-size: cover;
+          background-repeat: no-repeat;
+            background-attachment:fixed;
+             display: grid;
+  gap: var(--space);
+
+@media (min-width: 768px) {
+  .page {
+    grid-template-columns: 240px 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .page {
+    grid-template-columns: 280px 2fr 1fr;
+  }}
+        }
+        .enquire-page {/*general styling for enquire page*/
+            background-image:url('../images/EHero.jpeg');
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+   
+            background-size: cover;
+          background-repeat: no-repeat;
+            background-attachment:fixed;
+        .form-group {
+      margin-bottom: 15px;
+      
+    }
+  body {
+  font-family: Arial, sans-serif;
+  background: #19192d;
+  display:grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+}
+/* Styling for the form container */
+.form-container {
+  
+  background: #2b3d57;
+  padding: 20px;
+  border-radius: 10px;
+  width: 500px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  float: center;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+label {
+  display: block;
+  float: center;
+  font-weight: bold;
+  margin: 10px 0 5px;
+}
+
+input, select, textarea, button {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  background: #007BFF;
+  color: white;
+  border:ridge;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0056b3;
+}
+
+#responseMessage {
+  text-align: center;
+  font-weight: bold;
+  color: rgb(26, 27, 35);
+}
+        }
+      
+    body {
+        background-image: url('images/volunteer.jpg');
+        background-position: center;
+        background-color:rgb(167, 180, 186);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+             display: grid;
+  gap: var(--space);
+
+@media (min-width: 768px) {
+  .page {
+    grid-template-columns: 240px 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .page {
+    grid-template-columns: 280px 2fr 1fr;
+  }}
+        }
+        .about-page {
+            background-image:url('../images/AUHero.jpeg');
+            background-position: center;
+            width: 100%;
+            height: 100vh;
+             
+            background-size: cover;
+          background-repeat: no-repeat;
+            background-attachment:fixed;
+             display: grid;
+  gap: var(--space);
+
+@media (min-width: 768px) {
+  .page {
+    grid-template-columns: 240px 1fr;
+  }
+}
+@media (min-width: 1200px) {
+  .page {
+    grid-template-columns: 280px 2fr 1fr;
+  }}
+        }
+
+
+
+
+ body {
+    font-size: 16px;
+    h1{
+        font-size: 2em;
+    }
+}
+
+/* Small devices (cellphones)*/
+@media only screen and (min-width: 600px) {
+    
+      header{
+  
+background-color: rgb(181, 181, 217);
+
+
+    }
+    
+}
+
+/* Medium devices (tablets) */
+@media only screen and (min-width: 768px) {
+     header{
+  
+background-color: rgb(113, 113, 147);
+
+
+    }
+}
+
+/* Large devices (laptops/pc) */
+@media only screen and (min-width: 992px) {
+    header{
+  
+background-color: rgb(54, 54, 91);
+
+
+    }
+}
+
+/* Extra large devices (≥1200px) */
+@media only screen and (min-width: 1200px) {
+   header{
+  
+background-color: rgb(26, 26, 73);
+
+
+    }
+}

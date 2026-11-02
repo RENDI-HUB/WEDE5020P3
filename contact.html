@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/styles.css">
+]<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" defer></script>
+          <link rel="stylesheet" href="css/extras.css">
+
+   <title>Contact Us | Gift to the Nation, Pretoria</title>
+<meta name="description" content="Call our toll-free line or email Gift to the Nation. We're in Pretoria CBD.">
+    </head>    
+
+<body class="contact-page">
+  
+    <header>
+     <img src="images/giftToTheNationLogo.png" alt = "gift to the nation logo"width="150" height="150" style="display:block; float:left; margin:10px auto;">
+<h1>Gift to 
+the Nation</h1>
+ <nav>
+            <ul>
+               <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enquire.html">Enquire</a></li> 
+                <li><a href="services.html">Services</a></li>
+            </ul>
+            </nav>
+    </header>
+   <main class="panel-wrap">
+  <section class="panel">
+    <h2>Send us a message</h2>
+    <form id="contactForm" action="mailto:info@gifttothenation.org" method="post" enctype="text/plain" novalidate>
+ <label for="name">Full name*</label>
+      <input type="text" id="name" name="name" autocomplete="name">
+      <label for="email">Email*</label>
+      <input type="email" id="email" name="email" autocomplete="email">
+      <label for="phone">Phone (optional)</label>
+      <input type="tel" id="phone" name="phone" placeholder="082 123 4567">
+      <label for="messageType">Type of message*</label>
+      <select id="messageType" name="messageType">
+        <option value="">Choose…</option>
+        <option>General message</option>
+        <option>Feedback</option>
+        <option>Complaint</option>
+        <option>Media request</option>
+        <option>Partnership proposal</option>
+      </select>
+      <label for="message">Message*</label>
+      <textarea id="message" name="message" rows="6"></textarea>
+      <button type="submit">Prepare email</button>
+      <div id= "responseMessage" aria-live="polite"></div>
+    </form>
+        <div id="emailPreview" aria-live="polite"></div>
+
+  </section>
+   <section class="panel" id="aboutTabs">
+    <div role="tablist">
+           <button role="tab" id="tab-contact" aria-controls="panel-contact" aria-selected="false" tabindex="-1">contact info</button>
+    <div role="tabpanel" id="panel-contact" aria-labelledby="tab-contact" > <Pre>Toll Free Number: 0800 786 000
+        
+Email: info@gifttothenation.org
+
+SUBSCRIBE TO OUR NEWSLETTER
+
+
+Copyright © 2026 Gift to the nation Foundation. All Rights Reserved. "NPO 032-031, PBO 930018993"
+Terms & Conditions
+designed by Assegai & Javelin, developed by DGTL-FUSION</pre></div>
+  <br>
+        <button role="tab" id="tab-map" aria-controls="panel-map" aria-selected="false" tabindex="-1">location</button>
+     <div  role="tabpanel" id="map" aria-labelledby="tab-map" style="width: 100%; height: 400px;"></div>
+     
+
+
+</section>
+
+</main>
+
+   <script src="js/myscript.js"defered></script>
+         
+
+
+</body>
+</html>
+   

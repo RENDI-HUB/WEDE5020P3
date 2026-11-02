@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+     <link rel="stylesheet" href="css/extras.css">
+            
+   <title>Enquire | Donate, Sponsor or Volunteer</title>
+<meta name="description" content="Ask about our services, donating, sponsoring or volunteering and get cost and availability details.">
+    </head>
+   
+
+
+<body class="enquire-page">
+
+ 
+<header>
+       <img src="images/giftToTheNationLogo.png" alt = "gift to the nation logo"width="150" height="150" style="display:block; float:left; margin:10px auto;">
+<h1>Gift to 
+the Nation</h1>
+  <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enquire.html">Enquire</a></li>
+                <li><a href="services.html">Services</a></li>
+            </ul>
+        </nav>
+    </header>
+
+
+
+<main class="panel-wrap">
+   <section class="panel">
+      <h2>Enquire</h2>
+
+  <div class="form-container">
+    <h2>Enquiry Form</h2>
+  <form id="enquiryForm" action="https://jsonplaceholder.typicode.com/posts" method="post" novalidate>
+      <label for="name">Full Name*</label>
+      <input type="text" id="name" name="name" required>
+
+      <label for="email">Email*</label>
+      <input type="email" id="email" name="email" required>
+
+      <label for="phone">Phone*</label>
+<input type="tel" id="phone" name="phone" placeholder="082 123 4567">
+<label for="quantity">Quantity / number of people*</label>
+<input type="number" id="quantity" name="quantity" min="1" required>
+
+      <label for="subject">Subject</label>
+      <select id="subject" name="subject">
+        <option value="general">General Enquiry</option>
+        <option value="donate">donate</option>
+        <option value="sponsor">sponsor</option>
+        <option value="volunteer">volunteer</option>
+        <option value="charity-walk">Charity Walk</option>
+      </select>
+
+      <label for="message">Message*</label>
+      <textarea id="message" name="message" required></textarea>
+
+      <button type="submit">Send Enquiry</button>
+            <div id= "responseMessage" aria-live="polite"></div>
+
+    </form>
+  
+</main>
+ <script src="js/myscript.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="css/styles.css">
+
+     <link rel="stylesheet" href="css/extras.css">
+
+   <title>Our Services | Food Support and Fundraising Events</title>
+<meta name="description" content="Browse our food parcels, school lunches, charity walks and sponsorship options, with costs and availability.">
+</head>
+
+<body class="services-page">
+    <header>
+                <img src="images/giftToTheNationLogo.png" alt = "gift to the nation logo"width="150" height="150" style="display:block; float:left; margin:10px auto;">
+<h1>Gift to 
+the Nation</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li> 
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="enquire.html">Enquire</a></li>
+                <li><a href="services.html">Services</a></li>
+               
+
+            </ul>
+    </header>
+    <main class="panel-wrap">
+      
+  <section class="panel">
+    <h2>Find a service</h2>
+    <div class="service-controls">
+      <div><label for="serviceSearch">Search</label>
+        <input type="search" id="serviceSearch"></div>
+      <div><label for="serviceCategory">Category</label>
+        <select id="serviceCategory"><option value="all">All categories</option></select></div>
+      <div><label for="serviceSort">Sort by</label>
+        <select id="serviceSort">
+          <option value="name">Name (A to Z)</option>
+          <option value="price-low">Cost: low to high</option>
+          <option value="price-high">Cost: high to low</option>
+        </select></div>
+    </div>
+    <p id="serviceCount"></p>
+    <div id="serviceList" class="card-grid"></div>
+  </section>
+
+
+          </main>
+                  <script src="js/myscript.js"></script>
+
+    </body>
+</html>
