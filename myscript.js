@@ -44,11 +44,11 @@ const FAQS = [
 ];
 
 const GALLERY_IMAGES = [
-  { src: 'images/GTTNHero.jpeg', alt: 'Gift to the Nation home banner' },
-  { src: 'images/AUHero.jpeg', alt: 'Gift to the Nation about us banner' },
-  { src: 'images/SHero.jpeg', alt: 'Gift to the Nation services banner' },
-  { src: 'images/CUhero.jpeg', alt: 'Gift to the Nation contact banner' },
-  { src: 'images/EHero.jpeg', alt: 'Gift to the Nation enquiry banner' }
+  { src: '../GTTNHero.jpeg', alt: 'Gift to the Nation home banner' },
+  { src: '../AUHero.jpeg', alt: 'Gift to the Nation about us banner' },
+  { src: '../SHero.jpeg', alt: 'Gift to the Nation services banner' },
+  { src: '../CUhero.jpeg', alt: 'Gift to the Nation contact banner' },
+  { src: '../EHero.jpeg', alt: 'Gift to the Nation enquiry banner' }
 ];
 
 /* ===== Helpers ===== */
